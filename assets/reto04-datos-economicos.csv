@@ -1,0 +1,10 @@
+﻿# Datos ficticios para capacitación. No corresponden a contratos ni precios reales.
+Concepto;TecnoSoporte (vigente);TecnoSoporte (propuesta +18 %);Nubia;Orbital;Unidad;Nota
+Tarifa mensual base;180000000;212400000;168000000;120000000;COP/mes antes de IVA;
+Licencias de monitoreo;0;0;18000000;0;COP/mes;Nubia las factura aparte
+Tickets incluidos;Ilimitados;Ilimitados;Ilimitados;150;tickets/mes;
+Costo por ticket adicional;0;0;0;350000;COP/ticket;Solo Orbital
+Costo de transición (pago único);0;0;240000000;380000000;COP;
+Meses de operación en paralelo;0;0;1;3;meses;Se paga al proveedor actual a tarifa vigente
+Plazo propuesto;—;24;36;24;meses;
+Ajuste anual;IPC;IPC + 3;IPC;IPC;;
