@@ -109,7 +109,9 @@ No calcules el TCO todavía.
 
 **Instrucciones:**
 
-1. En `R4_Modelo_TCO.xlsx`, crea la hoja `Supuestos` con: horizonte 36 meses, 260 tickets mensuales, costo interno de transición COP 90 M y valores antes de IVA.
+1. En `R4_Modelo_TCO.xlsx`, crea la hoja `Supuestos` con:
+   - Horizonte de 36 meses, 260 tickets mensuales, costo interno de transición de COP 90 M y valores antes de IVA.
+   - Hipótesis de comparación: para las ofertas con plazo de 24 meses, se supone una extensión por 12 meses al mismo precio y con las mismas condiciones; no se incluye indexación en ningún escenario. Es una simplificación para el ejercicio, no una condición ofrecida ni una previsión de renovación.
 2. Crea la hoja `Normalizacion` y calcula el costo mensual comparable:
    - TecnoSoporte +18 %: 212,4 M.
    - Nubia: 168 + 18 = 186,0 M.
@@ -119,6 +121,8 @@ No calcules el TCO todavía.
 **Resultado esperado:** Costos mensuales normalizados con fórmulas.
 
 **Verificación:** Los valores coinciden con 212,4; 186,0 y 158,5 millones de COP.
+
+**Alcance de la comparación:** El plazo propuesto de TecnoSoporte y Orbital es de 24 meses, mientras que el horizonte del modelo es de 36. La extensión hipotética de los meses 25 a 36 al mismo precio hace comparables los escenarios, pero no demuestra que el proveedor la aceptaría. Registra esta limitación en `Supuestos` y en el resumen ejecutivo. Los costos mensuales de esta hoja no incluyen costos únicos de transición ni operación en paralelo.
 
 ### Actividad 2. Construcción de escenarios — 40 min
 
@@ -138,7 +142,7 @@ Entrega las fórmulas de Excel referenciando la hoja Supuestos y explica cada un
 No calcules resultados finales.
 ```
 
-2. Revisa que las fórmulas usen referencias y no valores fijos.
+2. Revisa que las fórmulas usen referencias y no valores fijos. Incluye la hipótesis de extensión de los contratos de 24 meses y de precios constantes sin indexación durante los 36 meses.
 
 **Resultado esperado:** Estructura y fórmulas propuestas.
 
@@ -151,13 +155,13 @@ No calcules resultados finales.
 **Instrucciones:**
 
 1. En la hoja `Escenarios`, construye al menos cinco escenarios: renovar +18 %, +8 % y +5 %; cambiar a Nubia; cambiar a Orbital.
-2. Para el costo en paralelo, usa la tarifa vigente de COP 180 M por cada mes de operación en paralelo (1 mes para Nubia y 3 para Orbital).
+2. Para el costo en paralelo, usa la tarifa vigente de COP 180 M por cada mes de operación en paralelo (1 mes para Nubia y 3 para Orbital). Para los escenarios de renovación y cambio, conserva el precio mensual constante durante los 36 meses; cualquier ajuste por IPC queda fuera de este caso base.
 3. Inserta un gráfico de barras que compare el TCO de los escenarios.
 4. Agrega una hoja `Sensibilidad` con el costo mensual de Orbital para 150, 200, 260, 320 y 380 tickets.
 
 **Resultado esperado:** Modelo de TCO con escenarios, gráfico y sensibilidad.
 
-**Verificación:** Los TCO a 36 meses son: +18 % = 7.646,4; +8 % = 6.998,4; +5 % = 6.804,0; Nubia = 7.206,0; Orbital = 6.716,0 millones de COP.
+**Verificación:** Bajo las hipótesis de precio constante y extensión indicada, los TCO de referencia a 36 meses son: +18 % = 7.646,4; +8 % = 6.998,4; +5 % = 6.804,0; Nubia = 7.206,0; Orbital = 6.716,0 millones de COP. En Nubia y Orbital se incluyen transición, costo interno y meses en paralelo según los datos del caso.
 
 #### Paso 5: Verificar cálculos y supuestos
 
@@ -247,7 +251,7 @@ Analiza esta situación: la IA afirma que «el TCO de Orbital a 36 meses es COP 
 
 **Causa probable:** Se omitió la operación en paralelo, el costo interno o los tickets adicionales, o se mezclaron valores con IVA.
 
-**Solución:** Revisa la hoja `Supuestos` y la fórmula del TCO. Usa la tarifa vigente de 180 M para los meses en paralelo y valores antes de IVA.
+**Solución:** Revisa la hoja `Supuestos` y la fórmula del TCO. Usa la tarifa vigente de 180 M para los meses en paralelo, valores antes de IVA y la hipótesis de extensión a precio constante. Si incluyes indexación o una renovación distinta, documenta el supuesto y presenta el resultado como escenario separado; no lo compares como si fuera el valor de referencia.
 
 ## Limpieza
 
@@ -257,7 +261,7 @@ Analiza esta situación: la IA afirma que «el TCO de Orbital a 36 meses es COP 
 
 ## Resumen (+ optional resources)
 
-En este reto se normalizó la información económica, se construyó un modelo de TCO a 36 meses con escenarios comparables, se verificaron los cálculos en Excel y se definieron objetivos de negociación basados en datos. El análisis muestra que el incremento del 18 % es el escenario más costoso y que una renovación entre +5 % y +8 % compite con las alternativas.
+En este reto se normalizó la información económica, se construyó un modelo de TCO a 36 meses con escenarios comparables, se verificaron los cálculos en Excel y se definieron objetivos de negociación basados en datos. El análisis muestra que, bajo la hipótesis de extensión a precio constante y sin indexación, el incremento del 18 % es el escenario más costoso y una renovación entre +5 % y +8 % compite con las alternativas. La comparación no reemplaza una cotización por los meses posteriores al plazo contractual.
 
 El modelo y los objetivos son insumo de los retos 5 y 6.
 
