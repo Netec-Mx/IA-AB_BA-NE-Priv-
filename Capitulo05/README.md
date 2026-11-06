@@ -47,8 +47,10 @@ En este reto usas Claude, Copilot Chat o los agentes disponibles para comparar l
 - Microsoft 365 Copilot Chat (licencia básica) o Claude (plan gratuito) con carga de archivos.
 - Opcional: agentes Researcher y Analyst de Microsoft 365 Copilot.
 - Microsoft Excel y Microsoft Word.
+- Caso transversal: [assets/caso-transversal-nequi.docx](../assets/caso-transversal-nequi.docx).
 - Archivo: [assets/reto05-extractos-contrato.docx](../assets/reto05-extractos-contrato.docx).
-- Matriz de evaluación (reto 3) y modelo de TCO (reto 4).
+- Propuestas para contrastar riesgos y condiciones: [assets/reto03-propuesta-renovacion-tecnosoporte.docx](../assets/reto03-propuesta-renovacion-tecnosoporte.docx), [assets/reto03-oferta-nubia.docx](../assets/reto03-oferta-nubia.docx) y [assets/reto03-oferta-orbital.docx](../assets/reto03-oferta-orbital.docx).
+- Entregables de los retos 2 a 4: benchmark, matriz de evaluación y modelo de TCO.
 
 ## Entorno de Laboratorio
 
@@ -85,7 +87,7 @@ Crea los archivos:
 
 **Instrucciones:**
 
-1. Envía el prompt con el caso, la matriz de evaluación y el resumen económico como contexto:
+1. Adjunta o consulta el caso, las tres propuestas, los extractos contractuales y tus entregables de los retos 2 a 4 (benchmark, matriz de evaluación y resumen/modelo económico). Envía el prompt:
 
 ```text
 Actúa como analista de riesgo de terceros. Compara los riesgos de renovar el
@@ -93,8 +95,8 @@ contrato con el proveedor actual frente a cambiar a Nubia u Orbital (caso fictic
 Considera factores operativos, financieros, tecnológicos, de ciberseguridad y de
 continuidad del servicio.
 
-Para cada riesgo indica: alternativa, categoría, descripción, evidencia en los
-documentos (o «sin evidencia») y área que debería validarlo.
+Para cada riesgo indica: alternativa, categoría, descripción, archivo y sección de
+evidencia (o «sin evidencia») y área que debería validarlo.
 Formato: tabla. No presentes como hechos riesgos que no estén en la documentación.
 ```
 
