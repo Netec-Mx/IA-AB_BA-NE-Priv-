@@ -157,7 +157,7 @@ Espera mi primer mensaje como negociador de Nequi.
 
 **Instrucciones:**
 
-1. Recibe del instructor el documento con la contrapropuesta del proveedor.
+1. Recibe del instructor el documento con la contrapropuesta del proveedor. Debe especificar el precio o incremento, su vigencia y plazo, las condiciones que cambian respecto de la propuesta inicial y cualquier costo único o variable. Si un dato no está incluido, regístralo como `No especificado`; no lo supongas.
 2. En una conversación nueva (o indicando el cambio de rol), envía:
 
 ```text
@@ -169,12 +169,12 @@ Entrega: tabla de condiciones (cumple / no cumple / brecha), riesgos nuevos, TCO
 a 36 meses con la fórmula explícita y tres opciones de respuesta para la segunda ronda.
 ```
 
-3. Verifica en Excel el TCO de la contrapropuesta con la fórmula: tarifa vigente (COP 180 M) × (1 + incremento propuesto) × 36 meses, sin indexación.
+3. Calcula en Excel el costo recurrente de la contrapropuesta con su precio mensual documentado × meses del horizonte. Si solo se informa el incremento, usa COP 180 M × (1 + incremento) como precio mensual. Mantén el caso base de 36 meses sin indexación para compararlo con la MAAN y suma por separado cualquier costo único o variable documentado. Si el plazo, la extensión después del plazo o algún costo no está especificado, presenta el TCO como parcial y formula una pregunta; no lo presentes como costo total confirmado.
 4. Ajusta objetivos, concesiones y argumentos en tu estrategia.
 
 **Resultado esperado:** Análisis de la contrapropuesta y estrategia ajustada.
 
-**Verificación:** El análisis compara el nuevo incremento con el objetivo y el punto de reserva, contrasta el TCO con el de la MAAN e identifica las condiciones nuevas que no estaban en la propuesta inicial.
+**Verificación:** El análisis compara el nuevo incremento con el objetivo y el punto de reserva, contrasta el costo estimado (con sus supuestos y limitaciones) con el de la MAAN e identifica las condiciones nuevas que no estaban en la propuesta inicial.
 
 #### Paso 5: Desarrollar la segunda ronda
 
