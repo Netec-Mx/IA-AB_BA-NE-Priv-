@@ -7,18 +7,34 @@
 | Curso | IA AB_BA NE (Priv) |
 | Repositorio | Organización Netec-Mx; URL por registrar al publicar |
 | Alcance | Siete capítulos, siete prácticas, README principal, SETUP_GUIDE.md y recursos de `assets/` |
-| Fecha de revisión | 3 de noviembre de 2026 |
+| Fecha de revisión | 6 de noviembre de 2026 |
 | Versión documental | 1.0 |
 | Modalidad | Servicios web de IA (Microsoft 365 Copilot Chat o Claude) y aplicaciones de Microsoft 365 |
-| Duración | 14 horas · 91.7 % práctica (retos y discusión grupal) · 8.3 % contenidos guiados |
+| Duración | 14 horas · 91,7 % práctica (retos y discusión grupal) · 8,3 % contenidos guiados |
 
 # Objetivo
 
 Preparar un único entorno para todo el repositorio: cuentas, acceso a una herramienta de IA conversacional (Microsoft 365 Copilot Chat con licencia básica o Claude en su plan gratuito), aplicaciones de Microsoft 365 para organizar los entregables y los archivos ficticios del caso transversal.
 
-La guía consolida únicamente preparación, configuración y validación. Los entregables de los retos (matrices, modelos, informes y simulaciones) se construyen durante el curso.
+La guía consolida preparación, configuración, validación y el contenido mínimo de las introducciones guiadas. Los entregables de los retos (matrices, modelos, informes y simulaciones) se construyen durante el curso.
 
 El repositorio contiene documentación, imágenes de apoyo de los laboratorios y archivos ficticios en `assets/`: caso transversal, propuestas de proveedores, datos de mercado y económicos, extractos contractuales, propuesta final, condiciones de referencia y plantillas en Excel. No distribuye instaladores, agentes ni configuraciones de tenant.
+
+## Agenda y contenido guiado
+
+La duración total es de 14 horas (840 minutos): 770 minutos corresponden a las siete prácticas y sus discusiones (91,7 %) y 70 minutos a siete introducciones guiadas de 10 minutos (8,3 %). El facilitador puede usar la tabla como guion mínimo; no se requieren diapositivas ni licencias adicionales.
+
+| Introducción | Contenido mínimo de 10 minutos |
+|---|---|
+| Módulo 1 · Oportunidades | Presentar el caso ficticio y el flujo de abastecimiento; distinguir tareas asistibles de decisiones humanas; explicar los entregables que se reutilizan. |
+| Módulo 2 · Investigación | Repasar estructura de prompts y criterios de fuente; diferenciar dato público verificado, estimación, cotización y dato ficticio. |
+| Módulo 3 · Evaluación | Explicar comparación homogénea, escala ponderada, trazabilidad por sección y verificación de cálculos en Excel. |
+| Módulo 4 · TCO | Diferenciar costos recurrentes y únicos, normalización, horizonte común y supuestos; advertir que el caso base de 36 meses excluye indexación y supone extensión a precio constante cuando el plazo ofertado es de 24 meses. |
+| Módulo 5 · Riesgos y contrato | Separar riesgo documentado de hipotético; asignar validación a las áreas responsables y delimitar el rol no jurídico de la IA. |
+| Módulo 6 · Negociación | Explicar MAAN, punto de reserva, concesiones condicionadas y simulación por rondas; recordar que la contrapropuesta sorpresa la entrega el facilitador. |
+| Módulo 7 · Recomendación | Integrar evidencia, distinguir hechos/cálculos/supuestos y presentar alternativas, brechas, aprobaciones y seguimiento. |
+
+El facilitador debe reservar estos 70 minutos dentro de la jornada total indicada, no sumarlos por encima de las 14 horas.
 
 **Política de información:** durante la capacitación se utiliza exclusivamente información ficticia y fuentes públicas. Los participantes verifican los resultados generados por IA y respetan las políticas de seguridad y tratamiento de información de su organización.
 
@@ -174,9 +190,13 @@ Todos los nombres de proveedores, cifras y condiciones son ficticios. En el reto
 | Volumen de tickets | 260 mensuales |
 | Costo interno de transición | COP 90 M |
 
+**Convención del TCO del curso:** los valores de referencia a 36 meses son un caso base antes de IVA, con precios constantes y sin indexación. Para ofertas cuyo plazo sea de 24 meses, se supone una extensión por 12 meses al mismo precio y con las mismas condiciones únicamente para permitir la comparación; no es una oferta ni una renovación confirmada. Los informes deben hacer visible esta limitación y separar cualquier escenario con indexación.
+
 ## Gestión de la contrapropuesta del reto 6
 
 La contrapropuesta del reto 6 es material del instructor y **no se publica en el repositorio**, porque su efecto didáctico depende de que sea inesperada. El instructor la comparte con los participantes durante la Actividad 2 del reto 6 por el canal del curso.
+
+Antes de la sesión, el instructor prepara una propuesta coherente con el caso y comprueba que incluya el precio o incremento, vigencia, plazo, cambios en SLA y condiciones contractuales, y costos únicos o variables aplicables. Para que el análisis sea evaluable, debe haber al menos una condición económica que pueda compararse con el objetivo de +5 %, el punto de reserva de +8 % y la MAAN; los datos que no se entreguen deben poder marcarse como `No especificado`. El instructor guarda el material fuera del repositorio y confirma que todos los participantes puedan recibirlo durante la actividad. No se debe inferir ni distribuir una contrapropuesta modelo en los materiales públicos.
 
 # Servicios Externos Requeridos
 
