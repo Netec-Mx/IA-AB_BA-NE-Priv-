@@ -10,7 +10,7 @@
 
 ## Descripción General
 
-> Caso transversal ficticio: el equipo de Abastecimiento de Nequi debe identificar cómo aprovechar la inteligencia artificial durante la renegociación de un contrato de servicios tecnológicos, ante un incremento tarifario del 18 % propuesto por el proveedor actual.
+> Caso transversal ficticio: el equipo de Abastecimiento de Nequi debe identificar cómo aprovechar la inteligencia artificial, durante la renegociación de un contrato de servicios tecnológicos, ante un incremento tarifario del 18 % propuesto por el proveedor actual.
 
 En este reto analizas las etapas de investigación, evaluación, negociación y contratación para identificar dónde aporta valor la IA generativa, qué resultados puede producir y qué aspectos requieren supervisión humana. Después construyes una matriz de oportunidades que relaciona actividades, herramientas, instrucciones y entregables, y preparas una propuesta de aplicación de IA con al menos dos prompts probados en situaciones concretas de la renegociación.
 
