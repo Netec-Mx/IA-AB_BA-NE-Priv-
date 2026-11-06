@@ -157,7 +157,7 @@ Formato: tabla de cumplimiento, resumen de brechas y tres alternativas
    - Incremento: no cumple (9 % frente a un máximo de 8 %).
    - Disponibilidad, respuesta S1, penalizaciones, renovación, terminación, plan de continuidad y ajuste posterior por IPC: cumplen.
    - Notificación de incidentes: no especificada, requiere validación.
-3. Calcula en Excel el TCO de la propuesta final: 180 × 1,09 × 36 = COP 7.063,2 M (sin indexación).
+3. Calcula en Excel el caso base comparable: COP 180 M × 1,09 × 36 = COP 7.063,2 M, antes de IVA y sin indexación. La propuesta especifica ajuste por IPC después del primer año; como no se conoce el IPC futuro, esta cifra no representa el costo real total confirmado. Registra la indexación como supuesto y pendiente, o crea una sensibilidad con valores de IPC explícitos.
 
 **Resultado esperado:** Tabla de cumplimiento verificada.
 
@@ -179,7 +179,7 @@ Formato: tabla de cumplimiento, resumen de brechas y tres alternativas
 
 **Resultado esperado:** Evaluación integral sustentada.
 
-**Verificación:** El TCO de la propuesta final (7.063,2 M) se compara con el punto de reserva (6.998,4 M) y con Nubia (7.206,0 M).
+**Verificación:** El caso base de la propuesta final (7.063,2 M, antes de IVA y sin indexación) se compara con el caso base del punto de reserva (6.998,4 M) y con Nubia (7.206,0 M). El informe aclara que el ajuste IPC posterior al primer año puede cambiar la comparación.
 
 ### Actividad 3. Recomendación ejecutiva y seguimiento — 35 min
 
