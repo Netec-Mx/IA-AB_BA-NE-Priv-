@@ -105,7 +105,7 @@ Si un componente no aparece, escribe «No especificado». No interpretes ni comp
 información que no esté en el documento.
 ```
 
-3. Pega las tres tablas en una hoja `Extraccion` de tu Excel.
+3. En `R3_Matriz_Evaluacion.xlsx`, crea una hoja adicional llamada `Extraccion` y pega allí las tres tablas. La plantilla solo proporciona la hoja `R3_Evaluacion`; conserva esa hoja para la matriz de puntajes.
 
 **Resultado esperado:** Tres tablas de extracción con la misma estructura.
 
@@ -145,6 +145,7 @@ información que no esté en el documento.
 | Riesgo de cambio | 10 % | Complejidad de la transición y continuidad |
 
 2. Define la escala: 1 = no cumple, 3 = cumple parcialmente, 5 = cumple o supera.
+   Usa 2 y 4 para resultados intermedios. En todos los criterios, 5 debe representar la condición más favorable; para `Riesgo de cambio`, una puntuación alta significa menor riesgo o mejores medidas de transición.
 3. Justifica los pesos en una nota de la hoja.
 
 **Resultado esperado:** Criterios y pesos que suman 100 %.
@@ -172,7 +173,20 @@ No calcules el puntaje final.
 
 **Resultado esperado:** Matriz con puntajes calculados en Excel.
 
-**Verificación:** Con los pesos y calificaciones del ejemplo, los puntajes son TecnoSoporte 2,90; Nubia 3,80; Orbital 3,40.
+**Ejemplo de referencia:** La matriz siguiente reproduce los puntajes de verificación con los pesos propuestos. Las calificaciones ilustran una valoración posible a partir de las ofertas; no son una respuesta única. Documenta cualquier cambio con evidencia y aplica la misma escala a los tres proveedores.
+
+Para reproducir el ejemplo económico, compara los costos mensuales recurrentes normalizados a 260 tickets: TecnoSoporte COP 212,4 M; Nubia COP 186 M (servicio más licencias); Orbital COP 158,5 M. En este criterio no se incluyen los costos únicos de transición; el reto 4 los incorpora al TCO.
+
+| Criterio | Peso | TecnoSoporte | Nubia | Orbital |
+|---|---:|---:|---:|---:|
+| Técnico | 30 % | 4 | 4 | 3 |
+| Niveles de servicio | 20 % | 2 | 5 | 2 |
+| Económico | 30 % | 2 | 3 | 5 |
+| Comercial y contractual | 10 % | 2 | 3 | 3 |
+| Riesgo de cambio | 10 % | 5 | 4 | 3 |
+| **Puntaje ponderado** | **100 %** | **2,90** | **3,80** | **3,40** |
+
+**Verificación:** Con estos pesos y calificaciones, los puntajes son TecnoSoporte 2,90; Nubia 3,80; Orbital 3,40. Los resultados pueden variar si se justifican otras calificaciones; el ejemplo sirve para comprobar la fórmula, no para imponer la decisión.
 
 ### Actividad 3. Preparación de la siguiente ronda — 30 min
 
