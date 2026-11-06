@@ -179,14 +179,14 @@ de contratación. Cita solo páginas oficiales o informes públicos e indica la 
 
 **Instrucciones:**
 
-1. Agrega al benchmark el proveedor actual del caso (TecnoSoporte Andino, +18 %) con la etiqueta `Dato ficticio del caso`.
-2. Abre [assets/reto02-datos-ficticios-mercado.xlsx](../assets/reto02-datos-ficticios-mercado.xlsx) y agrega Nubia y Orbital como referencia comercial ficticia.
-3. Agrega una columna `Tipo` con los valores `Real investigado` o `Ficticio del caso`.
+1. En la columna `Tipo` que ya existe en la hoja `R2_Benchmark`, registra el proveedor actual del caso (TecnoSoporte Andino, +18 %) como `Ficticio del caso`.
+2. Abre [assets/reto02-datos-ficticios-mercado.xlsx](../assets/reto02-datos-ficticios-mercado.xlsx) y agrega Nubia y Orbital como referencias comerciales ficticias; registra también `Ficticio del caso` en `Tipo`.
+3. Para los proveedores investigados, registra `Real investigado` en `Tipo`. Usa `Clasificación del dato` para identificar si cada condición es `Verificado público`, `Estimación`, `Requiere cotización` o `Dato ficticio del caso`.
 4. Identifica oportunidades de negociación: condiciones del mercado que superan la propuesta del proveedor actual.
 
 **Resultado esperado:** Benchmark que separa claramente proveedores reales y ficticios.
 
-**Verificación:** Un lector puede distinguir en cada fila qué información es real, ficticia o no verificada.
+**Verificación:** Un lector puede distinguir en cada fila qué proveedores son reales o ficticios y qué datos están verificados, estimados o requieren cotización. No crees una segunda columna `Tipo`.
 
 #### Paso 6: Elaborar el informe ejecutivo
 
