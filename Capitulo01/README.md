@@ -4,7 +4,7 @@
 
 | Elemento | Valor |
 |---|---|
-| Duración | 70 minutos (Actividad 1: 20 min · Actividad 2: 25 min · Actividad 3: 25 min) + 10 minutos de discusión grupal |
+| Duración | 70 minutos (Actividad 1: 20 min · Actividad 2: 25 min · Actividad 3: 25 min) + 10 minutos de discusión grupal. |
 | Complejidad | Media |
 | Nivel de Bloom | Aplicar |
 
